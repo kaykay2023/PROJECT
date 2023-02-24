@@ -4,7 +4,33 @@ background-color: slategrey;
 }
 
 
+.imageUrls{
+  border:solid rgb(175, 17, 17) ;
+  height: 35vh;
+  width: 35vw;
+  margin: auto;
 
-.diplayContaine{
 
 }
+.src{
+  width: 25%;
+}
+
+
+.P1Btn{
+  border:solid purple;
+  width:25%;
+  float: left;
+  margin: 5em;
+  
+  
+}
+
+.P2Btn{
+  border:solid rgb(128, 105, 0);
+  width:25%;
+  margin: 5em;
+  margin-left: 60%;
+}
+
+

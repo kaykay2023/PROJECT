@@ -10,13 +10,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-    
     <!-- //heading -->
-    <h1>GUESS THE IMAGE</h1>
-    <!-- displaycontainer -->
-    <!-- <div class="diplayContainer">
-      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50f95eb5-7c8c-4f06-9ccf-ba936069debf/air-jordan-13-retro-big-kids-shoes-3Bbs9J.png" alt="" class="src">
+    <h1>GUESS THE SNEAKERS</h1>
+
+    <!-- imageUrls -->
+    <div id="imageUrls">
+       <!-- <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50f95eb5-7c8c-4f06-9ccf-ba936069debf/air-jordan-13-retro-big-kids-shoes-3Bbs9J.png" alt="" class="src">
    <img src="https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/852c5323-cf29-435d-919d-2936c4bce051/air-jordan-5-x-dj-khaled-mens-shoes-F3jrrH.png" alt="" class="src">
    <img src="https://houseofheat.co/app/uploads/2022/08/air-jordan-13-black-flint-dj5982-060-release-date-1.jpg" alt="" class="src">
       <img
@@ -27,11 +26,47 @@
       <img
         src="https://assets.hermes.com/is/image/hermesproduct/freestyle-sneaker--222914ZHBK-worn-1-0-0-800-800_g.jpg"
         alt="Hermes"
-        class="src" -->
-      />
+        class="src" 
+      />    -->
     </div>
 
-    <!-- <img src="" alt="" class="image1"> -->
+    
+    <div id="buttons">
+      <button onclick="guess('Black flint')">Black flint</button>
+      <button onclick="guess('Hermes')">Hermes</button>
+      <button onclick="guess('jordan retro')">jordan retro</button>
+      <button onclick="guess('dj khaled')">dj khaled</button>
+      <button onclick="guess('freestyle')">freestyle</button>
+      
+    </div>
+    <p id="result"></p>
+
+
+    <button id="refreshButton" >refreshButton</button>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="P1Btn">
+      <button class="player1ButtonA" onclick="player1ButtonA()">POneA</button>
+      <button class="player1ButtonB" onclick="player1ButtonB()">POneB</button>
+    </div>
+
+    <div class="P2Btn">
+      <button class="player1ButtonA" onclick="PTwoA()">PTwoA</button>
+      <button class="player1ButtonA" onclick="PTwoB()">PTwoB</button>
+    </div>
+
+    <div>
+      <button id="nextImage">Next Image</button>
+    </div> -->
 
     <script src="app.js" async defer></script>
   </body>
