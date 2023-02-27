@@ -1,23 +1,50 @@
 body{
-background-color: slategrey;
+  background-image: url('https://cdn1.vectorstock.com/i/1000x1000/23/25/seamless-background-of-questions-mark-vector-16992325.jpg');
+  /* background-repeat:  repeat;   */
+/* background-color:  #cccccc; */
 
 }
 
-
-.imageUrls{
-  border:solid rgb(175, 17, 17) ;
-  height: 35vh;
-  width: 35vw;
-  margin: auto;
-
-
+#imageUrls{
+  height: 150%;
+  width: 150%;
+  /* align-content: center;
+    height: 100%;
+  width: 100%; */
+   
 }
+.buttons{
+  
+  width:38%;
+  height:20vh;
+   background-color: #7b38d8;
+        color: #ffffff;
+        text-align: center;
+}
+ .btn{
+  background-color: blue;
+  border-radius: 10px;
+  padding: 1vh 2vw;
+  color: white;
+ }
+
+
 .src{
   width: 25%;
+  align-content: center;
+}
+
+.addimage{
+  background-color: green;
+  background-image:url('https://t4.ftcdn.net/jpg/03/23/94/95/360_F_323949531_MJO2jRTEXyKGJEk94g0fUaoqG7Atmbmy.jpg') ;
+  background-size:cover ;
+  width: 50vw;
+  height:50vh;
+
 }
 
 
-.P1Btn{
+/* .P1Btn{
   border:solid purple;
   width:25%;
   float: left;
@@ -31,6 +58,13 @@ background-color: slategrey;
   width:25%;
   margin: 5em;
   margin-left: 60%;
-}
+} */
 
 
+
+
+
+
+/* .Hermes.freestyle.Black.flint.djkhaled.jordanretro.Harden.BALMAIN.BLACK-FIVES.Rise-NITRO.yeezy700{
+  
+} */
