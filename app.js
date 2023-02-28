@@ -106,11 +106,11 @@ const guess = (name) => {
       if (wrongScore < 2) {
         console.log("right");
         score++;
-        result.innerHTML = `${score} this is the score
-      ${wrongScore} this is the score`;
+        result.innerHTML = `${score}  score
+      ${wrongScore}  score`;
         setTimeout(() => {
           changeImage();
-        }, "0");
+        }, 0);
       }
       //  document.location.reload();
     } else if (name != sneaker.name && score < 4 && wrongScore < 2) {
@@ -120,7 +120,7 @@ const guess = (name) => {
       result.innerHTML = `${score} 
      ${wrongScore} YOU LOOSE`;
 
-      // score = false
+      // score  
     } else if (score === 4 && wrongScore < 2) {
       result.innerHTML = "YOU WIN";
       console.log(playerTurn);
@@ -140,7 +140,7 @@ const guess = (name) => {
     result.classList.remove("addimage");
     result.innerHTML = "";
     console.log("its player 2 turn");
-
+                                  //player2
     if (name === sneaker.name && score < 4) {
       if (wrongScore < 2) {
         console.log("right");
@@ -149,9 +149,9 @@ const guess = (name) => {
        ${wrongScore} this is the score`;
         setTimeout(() => {
           changeImage();
-        }, "0");
+        }, 0);
       }
-      //  document.location.reload();
+      //  P2 conditions
     } else if (name != sneaker.name && score < 4 && wrongScore < 2) {
       console.log("wrong");
       wrongScore++;
@@ -175,8 +175,25 @@ const guess = (name) => {
       console.log(playerTurn);
       result.classList.add("addimage");
     }
+   
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //  result.style.backgroundImage = "url('https://t4.ftcdn.net/jpg/03/23/94/95/360_F_323949531_MJO2jRTEXyKGJEk94g0fUaoqG7Atmbmy.jpg')"
 

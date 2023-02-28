@@ -14,18 +14,19 @@ body{
    
 }
 .buttons{
-  
+  border-color:solid rgb(212, 17, 33);
   width:38%;
   height:20vh;
-   background-color: #7b38d8;
+   background-color: #26ec47;
         color: #ffffff;
         text-align: center;
 }
  .btn{
-  background-color: blue;
-  border-radius: 10px;
-  padding: 1vh 2vw;
-  color: white;
+  background-color: rgb(243, 168, 27);
+  border-radius: 50px;
+  padding: 1vh 4vw;
+  color: black;
+   text-align: center;
  }
 
 
@@ -36,30 +37,20 @@ body{
 
 .addimage{
   background-color: green;
-  background-image:url('https://t4.ftcdn.net/jpg/03/23/94/95/360_F_323949531_MJO2jRTEXyKGJEk94g0fUaoqG7Atmbmy.jpg') ;
+  background-image:url('https://freepngimg.com/thumb/crying_emoji/36923-7-crying-emoji-file-thumb.png') ;
   background-size:cover ;
-  width: 50vw;
-  height:50vh;
+  width: 37vw;
+  height:30vh;
 
 }
 
 
-/* .P1Btn{
-  border:solid purple;
-  width:25%;
-  float: left;
-  margin: 5em;
-  
-  
+#refreshButton{
+  background-color: rgb(216, 63, 16);
+  margin-left: 90px;
+  border-radius: 20px;
+  padding: 1vh 4vw;
 }
-
-.P2Btn{
-  border:solid rgb(128, 105, 0);
-  width:25%;
-  margin: 5em;
-  margin-left: 60%;
-} */
-
 
 
 
