@@ -55,7 +55,7 @@ const images = [
     name: "yeezy-700",
   },
 ];
-
+//varaibles
 let score = 0;
 let wrongScore = 0;
 let round = 1;
@@ -75,7 +75,7 @@ let playerTurn = false;
 
 let currentImage = sneakers[Math.floor(Math.random() * sneakers.length)];
 let sneaker;
-
+// random picture 
 const changeImage = () => {
   let randomIndex = Math.floor(Math.random() * images.length);
   sneaker = images[randomIndex];
@@ -91,7 +91,7 @@ const changeImage = () => {
 setTimeout(() => {
   changeImage();
 }, "0");
-
+// refresh funtion
 const Button = document.getElementById("refreshbutton");
 refreshButton.addEventListener("click", () => {
   location.reload();
@@ -120,7 +120,7 @@ const guess = (name) => {
       result.innerHTML = `${score} 
      ${wrongScore} YOU LOOSE`;
 
-      // score  
+      // score
     } else if (score === 4 && wrongScore < 2) {
       result.innerHTML = "YOU WIN";
       console.log(playerTurn);
@@ -140,7 +140,7 @@ const guess = (name) => {
     result.classList.remove("addimage");
     result.innerHTML = "";
     console.log("its player 2 turn");
-                                  //player2
+    //player2
     if (name === sneaker.name && score < 4) {
       if (wrongScore < 2) {
         console.log("right");
@@ -175,25 +175,8 @@ const guess = (name) => {
       console.log(playerTurn);
       result.classList.add("addimage");
     }
-   
   }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //  result.style.backgroundImage = "url('https://t4.ftcdn.net/jpg/03/23/94/95/360_F_323949531_MJO2jRTEXyKGJEk94g0fUaoqG7Atmbmy.jpg')"
 

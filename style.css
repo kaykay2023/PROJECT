@@ -1,51 +1,46 @@
-body{
-  background-image: url('https://cdn1.vectorstock.com/i/1000x1000/23/25/seamless-background-of-questions-mark-vector-16992325.jpg');
+body {
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/23/25/seamless-background-of-questions-mark-vector-16992325.jpg");
   /* background-repeat:  repeat;   */
-/* background-color:  #cccccc; */
-
+  /* background-color:  #cccccc; */
 }
 
-#imageUrls{
+#imageUrls {
   height: 150%;
   width: 150%;
   /* align-content: center;
     height: 100%;
   width: 100%; */
-   
 }
-.buttons{
-  border-color:solid rgb(212, 17, 33);
-  width:38%;
-  height:20vh;
-   background-color: #26ec47;
-        color: #ffffff;
-        text-align: center;
+.buttons {
+  border-color: solid rgb(212, 17, 33);
+  width: 38%;
+  height: 20vh;
+  background-color: #26ec47;
+  color: #ffffff;
+  text-align: center;
 }
- .btn{
+.btn {
   background-color: rgb(243, 168, 27);
   border-radius: 50px;
   padding: 1vh 4vw;
   color: black;
-   text-align: center;
- }
+  text-align: center;
+}
 
-
-.src{
+.src {
   width: 25%;
   align-content: center;
 }
 
-.addimage{
+.addimage {
   background-color: green;
-  background-image:url('https://freepngimg.com/thumb/crying_emoji/36923-7-crying-emoji-file-thumb.png') ;
-  background-size:cover ;
+  background-image: url("https://freepngimg.com/thumb/crying_emoji/36923-7-crying-emoji-file-thumb.png");
+  background-size: cover;
   width: 37vw;
-  height:30vh;
-
+  height: 30vh;
 }
 
-
-#refreshButton{
+#refreshButton {
   background-color: rgb(216, 63, 16);
   margin-left: 90px;
   border-radius: 20px;
